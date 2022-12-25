@@ -1,0 +1,33 @@
+.userProfile {
+    width: 600px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: grey;
+
+    border-color: 1px solid tomato;
+    margin-bottom: 30px;
+    margin: 0;
+}
+
+.description {
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 100%;
+
+    font-size: 26px;
+
+    text-decoration: none;
+    display: flex;
+
+    width: calc(100% / 3);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+
+}
