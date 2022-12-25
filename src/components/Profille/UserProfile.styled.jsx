@@ -5,8 +5,8 @@ export const Profile = styled.div`
     height: 422px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
     padding: 0;
+    padding-top: 20px;
     background-color: bisque;
     border: 1px solid tomato;
     border-radius: 5px;
