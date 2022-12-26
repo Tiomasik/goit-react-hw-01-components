@@ -7,6 +7,7 @@ export const StatisticsStyle = styled.section`
     margin-right: auto;
     padding: 20px 40px;
     border: 1px solid tomato;
+    margin-bottom: 30px;
 `
 
 export const BorderStyle = styled.ul`

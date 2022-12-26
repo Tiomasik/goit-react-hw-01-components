@@ -1,14 +1,14 @@
 import styled from '@emotion/styled'
 
-export const Profile = styled.div`
+export const Profile = styled.section`
     width: 400px;
     height: 422px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    padding-top: 20px;
+    padding-top: 30px;
     background-color: bisque;
-    border: 1px solid tomato;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 20px 0;
     border-radius: 5px;
     margin-bottom: 30px;
 
