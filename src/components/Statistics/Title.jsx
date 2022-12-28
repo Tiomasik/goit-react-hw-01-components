@@ -4,7 +4,7 @@ import { TitleStyle } from './Title.styled';
 
 export const Title = ({ title }) => {
     return (
-        title && < TitleStyle >{ title }</TitleStyle >
+        <TitleStyle >{ title }</TitleStyle >
     ) 
 }
 

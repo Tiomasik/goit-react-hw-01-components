@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import { TableRow } from 'components/TransactionHistory/TableRow/TableRow';
+import { TableRow } from 'components/TransactionHistory/TableRow';
 
 export const TableBody = ({transactions}) => {
     return (

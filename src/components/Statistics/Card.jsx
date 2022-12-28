@@ -6,7 +6,6 @@ export const Card = ({ label, percentage }) => {
             <span>{label}</span>
             <span>{percentage}</span>
         </CardStyle>
-    )
-        
+    )      
 };
 

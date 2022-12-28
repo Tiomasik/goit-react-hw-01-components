@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 
-import { Profile, Discription, Status } from './UserProfile.styled';
+import { ProfileStyle, Discription, Status } from './Profile.styled';
 
-export const UserProfile = ({ username, tag, location, avatar, followers, views, likes }) => {
+export const Profile = ({ username, tag, location, avatar, followers, views, likes }) => {
     return (
-        <Profile>
+        <ProfileStyle>
             <Discription>
                 <img
                     src={avatar}
@@ -27,11 +27,11 @@ export const UserProfile = ({ username, tag, location, avatar, followers, views,
                     <span className="quantity">{likes}</span>
                 </li>
             </Status>
-        </Profile>
+        </ProfileStyle>
     )
 }
 
-UserProfile.propTypes = {
+Profile.propTypes = {
     username: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,

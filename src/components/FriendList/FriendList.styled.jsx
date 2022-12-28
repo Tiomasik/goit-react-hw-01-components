@@ -1,9 +1,9 @@
 import styled from '@emotion/styled'
 
-export const BorderStyle = styled.section`
+export const SectionFriendList = styled.section`
     margin-bottom: 30px;
 `
-export const BorderListStyle = styled.ul`
+export const FriendListStyle = styled.ul`
     display: flex;
     flex-direction: column;
     gap: 20px;

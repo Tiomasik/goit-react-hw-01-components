@@ -10,7 +10,7 @@ export const StatisticsStyle = styled.section`
     margin-bottom: 30px;
 `
 
-export const BorderStyle = styled.ul`
+export const StatisticsList = styled.ul`
     list-style: none;
     display: flex;
     align-items: center;

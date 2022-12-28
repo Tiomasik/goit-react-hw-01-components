@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const Profile = styled.section`
+export const ProfileStyle = styled.section`
     width: 400px;
     height: 422px;
     margin-left: auto;

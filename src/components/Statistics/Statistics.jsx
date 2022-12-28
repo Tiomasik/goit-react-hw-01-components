@@ -1,19 +1,19 @@
 import PropTypes from 'prop-types';
 
-import { Title } from 'components/Statistics/Title/Title';
-import { Card } from 'components/Statistics/Card/Card';
-import { StatisticsStyle, BorderStyle } from './Statistics.styled';
+import { Title } from 'components/Statistics/Title';
+import { Card } from 'components/Statistics/Card';
+import { StatisticsStyle, StatisticsList } from './Statistics.styled';
 
 
-export const Statistics = ({stats}) => {  
+export const Statistics = ({ stats, title } ) => {
     return (
       <StatisticsStyle>
-            <Title title="Upload stats" />
-            <BorderStyle>
+            {title && <Title title={title}/>}
+            <StatisticsList>
                 {stats.map(stat => (<Card
                     key={stat.id} label={stat.label}
                     percentage={stat.percentage}></Card>))}
-            </BorderStyle>
+            </StatisticsList>
       </StatisticsStyle>
   );
 };

@@ -1,6 +1,6 @@
-import { TableBody } from 'components/TransactionHistory/TableBody/TableBody';
+import { TableBody } from 'components/TransactionHistory/TableBody';
 
-import { TableHead } from 'components/TransactionHistory/TableHead/TableHead';
+import { TableHead } from 'components/TransactionHistory/TableHead';
 import { TransactionHistoryStyle, Table } from './TransactionHistory.styled';
 
 
