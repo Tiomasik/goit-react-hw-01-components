@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import { CardFriends } from 'components/FriendList/CardFriend';
+import { FriendListItem } from 'components/FriendList/FriendListItem';
 import { SectionFriendList, FriendListStyle } from './FriendList.styled';
 
 
@@ -8,11 +8,11 @@ export const FriendList = ({friends}) => {
     return (
         <SectionFriendList>
             <FriendListStyle>
-                {friends.map(friend => (<CardFriends
+                {friends.map(friend => (<FriendListItem
                     key={friend.id}
                     avatar={friend.avatar}
                     name={friend.name}
-                    isOnline={friend.isOnline}></CardFriends>))}
+                    isOnline={friend.isOnline}></FriendListItem>))}
             </FriendListStyle>
         </SectionFriendList>
         

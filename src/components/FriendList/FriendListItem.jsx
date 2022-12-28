@@ -1,6 +1,6 @@
-import { CardFriendsStyle, OnlineStyle, NameStyle } from './CardFriend.styled';
+import { CardFriendsStyle, OnlineStyle, NameStyle } from './FriendListItem.styled';
 
-export const CardFriends = ({ avatar, name, isOnline }) => {
+export const FriendListItem = ({ avatar, name, isOnline }) => {
     
     return  <CardFriendsStyle>
                 <OnlineStyle isOnline={isOnline}>{isOnline}</OnlineStyle>
