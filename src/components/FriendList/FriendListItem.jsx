@@ -1,10 +1,10 @@
-import { CardFriendsStyle, OnlineStyle, NameStyle } from './FriendListItem.styled';
+import { FriendListItemStyle, OnlineStyle, NameStyle } from './FriendListItem.styled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
     
-    return  <CardFriendsStyle>
+    return  <FriendListItemStyle>
                 <OnlineStyle isOnline={isOnline}>{isOnline}</OnlineStyle>
                 <img src={avatar} alt="User avatar" />
                 <NameStyle>{name}</NameStyle>
-            </CardFriendsStyle>
+            </FriendListItemStyle>
 };
