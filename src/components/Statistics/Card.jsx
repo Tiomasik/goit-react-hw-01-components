@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import { CardStyle } from './Card.styled';
 
 export const Card = ({ label, percentage }) => {
@@ -9,3 +11,7 @@ export const Card = ({ label, percentage }) => {
     )      
 };
 
+Card.propTypes = {
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+}
